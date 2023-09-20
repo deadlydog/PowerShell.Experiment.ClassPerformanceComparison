@@ -21,6 +21,7 @@ To run the test, run the [Invoke-Test.ps1](/src/Invoke-Test.ps1) script.
 
 The results of the test on my local machine are:
 
+```text
 ImportPowerShellClasses1: 80ms
 ImportPowerShellClasses2: 9ms
 ImportPowerShellClasses3: 8ms
@@ -32,6 +33,7 @@ ImportInlineCSharp3: 36ms
 ImportCSharpAssembly1: 10ms
 ImportCSharpAssembly2: 9ms
 ImportCSharpAssembly3: 8ms
+```
 
 Interestingly, the first import of each method is always the slowest, presumably due to required assemblies being loaded into memory the first time they are needed.
 
