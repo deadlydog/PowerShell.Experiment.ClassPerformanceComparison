@@ -20,6 +20,12 @@ namespace CSharpAssembly
 	{
 		public CSharpAssemblyEnum3 Enum3 { get; set; }
 		public CSharpAssemblyEnum4 Enum4 { get; set; }
+
+		public CSharpAssemblyClass3()
+		{
+			Enum3 = CSharpAssemblyEnum3.Value1;
+			Enum4 = CSharpAssemblyEnum4.Value1;
+		}
 	}
 
 	class CSharpAssemblyClass4

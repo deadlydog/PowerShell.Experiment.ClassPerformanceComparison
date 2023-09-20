@@ -17,6 +17,12 @@ class InlineCSharpClass3
 {
 	public InlineCSharpEnum3 Enum3 {get; set;}
 	public InlineCSharpEnum4 Enum4 { get; set; }
+
+	public InlineCSharpClass3()
+	{
+		this.Enum3 = InlineCSharpEnum3.Value1;
+		this.Enum4 = InlineCSharpEnum4.Value2;
+	}
 }
 
 class InlineCSharpClass4

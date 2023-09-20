@@ -16,6 +16,12 @@ class PowerShellClass1
 {
 	[PowerShellEnum1] $Enum1
 	[PowerShellEnum2] $Enum2
+
+	PowerShellClass1()
+	{
+		$this.Enum1 = [PowerShellEnum1]::Value1
+		$this.Enum2 = [PowerShellEnum2]::Value2
+	}
 }
 
 class PowerShellClass2
