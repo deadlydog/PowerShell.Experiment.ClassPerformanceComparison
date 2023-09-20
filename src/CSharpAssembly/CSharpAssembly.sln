@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAssembly", "CSharpAssembly\CSharpAssembly.csproj", "{867E2750-0B83-4A86-A2A2-D61A2640D89B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAssembly1", "CSharpAssembly1\CSharpAssembly1.csproj", "{867E2750-0B83-4A86-A2A2-D61A2640D89B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAssembly2", "CSharpAssembly2\CSharpAssembly2.csproj", "{6BA589E6-1593-4B46-8F85-F82214D160C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAssembly3", "CSharpAssembly3\CSharpAssembly3.csproj", "{F854922D-5871-43E5-A943-B5BD73618199}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{867E2750-0B83-4A86-A2A2-D61A2640D89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{867E2750-0B83-4A86-A2A2-D61A2640D89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{867E2750-0B83-4A86-A2A2-D61A2640D89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA589E6-1593-4B46-8F85-F82214D160C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA589E6-1593-4B46-8F85-F82214D160C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA589E6-1593-4B46-8F85-F82214D160C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA589E6-1593-4B46-8F85-F82214D160C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F854922D-5871-43E5-A943-B5BD73618199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F854922D-5871-43E5-A943-B5BD73618199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F854922D-5871-43E5-A943-B5BD73618199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F854922D-5871-43E5-A943-B5BD73618199}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
