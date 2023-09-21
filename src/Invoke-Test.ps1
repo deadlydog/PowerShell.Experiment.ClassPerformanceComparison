@@ -64,21 +64,21 @@ The time it took to import the classes using the different methods are:
 ImportPowerShellClasses1: $($timeToImportPowerShellClasses1.Milliseconds)ms
 ImportPowerShellClasses2: $($timeToImportPowerShellClasses2.Milliseconds)ms
 ImportPowerShellClasses3: $($timeToImportPowerShellClasses3.Milliseconds)ms
-ImportPowerShellClassesLarge: $($timeToImportPowerShellClassesLarge1.Milliseconds)ms
-ImportPowerShellClassesLarge: $($timeToImportPowerShellClassesLarge2.Milliseconds)ms
-ImportPowerShellClassesLarge: $($timeToImportPowerShellClassesLarge3.Milliseconds)ms
+ImportPowerShellClassesLarge1: $($timeToImportPowerShellClassesLarge1.Milliseconds)ms
+ImportPowerShellClassesLarge2: $($timeToImportPowerShellClassesLarge2.Milliseconds)ms
+ImportPowerShellClassesLarge3: $($timeToImportPowerShellClassesLarge3.Milliseconds)ms
 
 ImportInlineCSharp1: $($timeToImportInlineCSharp1.Milliseconds)ms
 ImportInlineCSharp2: $($timeToImportInlineCSharp2.Milliseconds)ms
 ImportInlineCSharp3: $($timeToImportInlineCSharp3.Milliseconds)ms
-ImportInlineCSharpLarge: $($timeToImportInlineCSharpLarge1.Milliseconds)ms
-ImportInlineCSharpLarge: $($timeToImportInlineCSharpLarge2.Milliseconds)ms
-ImportInlineCSharpLarge: $($timeToImportInlineCSharpLarge3.Milliseconds)ms
+ImportInlineCSharpLarge1: $($timeToImportInlineCSharpLarge1.Milliseconds)ms
+ImportInlineCSharpLarge2: $($timeToImportInlineCSharpLarge2.Milliseconds)ms
+ImportInlineCSharpLarge3: $($timeToImportInlineCSharpLarge3.Milliseconds)ms
 
 ImportCSharpAssembly1: $($timeToImportCSharpAssembly1.Milliseconds)ms
 ImportCSharpAssembly2: $($timeToImportCSharpAssembly2.Milliseconds)ms
 ImportCSharpAssembly3: $($timeToImportCSharpAssembly3.Milliseconds)ms
-ImportCSharpAssemblyLarge: $($timeToImportCSharpAssemblyLarge1.Milliseconds)ms
-ImportCSharpAssemblyLarge: $($timeToImportCSharpAssemblyLarge2.Milliseconds)ms
-ImportCSharpAssemblyLarge: $($timeToImportCSharpAssemblyLarge3.Milliseconds)ms
+ImportCSharpAssemblyLarge1: $($timeToImportCSharpAssemblyLarge1.Milliseconds)ms
+ImportCSharpAssemblyLarge2: $($timeToImportCSharpAssemblyLarge2.Milliseconds)ms
+ImportCSharpAssemblyLarge3: $($timeToImportCSharpAssemblyLarge3.Milliseconds)ms
 "@

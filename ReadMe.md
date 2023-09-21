@@ -25,23 +25,23 @@ The results of the test on my local machine are:
 ImportPowerShellClasses1: 89ms
 ImportPowerShellClasses2: 10ms
 ImportPowerShellClasses3: 9ms
-ImportPowerShellClassesLarge: 13ms
-ImportPowerShellClassesLarge: 11ms
-ImportPowerShellClassesLarge: 12ms
+ImportPowerShellClassesLarge1: 13ms
+ImportPowerShellClassesLarge2: 11ms
+ImportPowerShellClassesLarge3: 12ms
 
 ImportInlineCSharp1: 764ms
 ImportInlineCSharp2: 25ms
 ImportInlineCSharp3: 36ms
-ImportInlineCSharpLarge: 230ms
-ImportInlineCSharpLarge: 55ms
-ImportInlineCSharpLarge: 28ms
+ImportInlineCSharpLarge1: 230ms
+ImportInlineCSharpLarge2: 55ms
+ImportInlineCSharpLarge3: 28ms
 
 ImportCSharpAssembly1: 10ms
 ImportCSharpAssembly2: 9ms
 ImportCSharpAssembly3: 8ms
-ImportCSharpAssemblyLarge: 8ms
-ImportCSharpAssemblyLarge: 8ms
-ImportCSharpAssemblyLarge: 8ms
+ImportCSharpAssemblyLarge1: 8ms
+ImportCSharpAssemblyLarge2: 8ms
+ImportCSharpAssemblyLarge3: 8ms
 ```
 
 Interestingly, the first import of each method is always the slowest, presumably due to required assemblies being loaded into memory the first time they are needed.
