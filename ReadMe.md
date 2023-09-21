@@ -22,19 +22,25 @@ The test requires dotnet.exe to be installed and available in the PATH, as it is
 The results of the test on my local machine are:
 
 ```text
-ImportPowerShellClasses1: 80ms
+ImportPowerShellClasses1: 89ms
 ImportPowerShellClasses2: 10ms
-ImportPowerShellClasses3: 8ms
+ImportPowerShellClasses3: 9ms
+ImportPowerShellClassesLarge: 13ms
+ImportPowerShellClassesLarge: 11ms
 ImportPowerShellClassesLarge: 12ms
 
-ImportInlineCSharp1: 716ms
-ImportInlineCSharp2: 24ms
-ImportInlineCSharp3: 35ms
-ImportInlineCSharpLarge: 234ms
+ImportInlineCSharp1: 764ms
+ImportInlineCSharp2: 25ms
+ImportInlineCSharp3: 36ms
+ImportInlineCSharpLarge: 230ms
+ImportInlineCSharpLarge: 55ms
+ImportInlineCSharpLarge: 28ms
 
-ImportCSharpAssembly1: 9ms
+ImportCSharpAssembly1: 10ms
 ImportCSharpAssembly2: 9ms
 ImportCSharpAssembly3: 8ms
+ImportCSharpAssemblyLarge: 8ms
+ImportCSharpAssemblyLarge: 8ms
 ImportCSharpAssemblyLarge: 8ms
 ```
 
