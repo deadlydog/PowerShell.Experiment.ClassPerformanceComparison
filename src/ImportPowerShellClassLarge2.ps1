@@ -17,9 +17,9 @@ class tiPSPowerShellTip2
 	[string] $Example
 	[string[]] $Urls
 	[string] $MinPowerShellVersion
-	[tiPSTipCategory] $Category
+	[tiPSTipCategory2] $Category
 
-	tiPSPowerShellTip()
+	tiPSPowerShellTip2()
 	{
 		$this.CreatedDate = [DateTime]::MinValue
 		$this.Title = [string]::Empty
@@ -27,7 +27,7 @@ class tiPSPowerShellTip2
 		$this.Example = [string]::Empty
 		$this.Urls = @()
 		$this.MinPowerShellVersion = [string]::Empty
-		$this.Category = [tiPSTipCategory]::Other
+		$this.Category = [tiPSTipCategory2]::Other
 	}
 
 	[string] Id()

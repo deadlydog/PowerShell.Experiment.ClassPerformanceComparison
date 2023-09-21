@@ -21,9 +21,9 @@ namespace tiPS
 		public string Example { get; set; }
 		public string[] Urls { get; set; }
 		public string MinPowerShellVersion { get; set; } // Use a string because System.Version is not deserialized correctly from JSON, and it's a bit more user friendly when specifying the version.
-		public TipCategory Category { get; set; }
+		public TipCategory1 Category { get; set; }
 
-		public PowerShellTip()
+		public PowerShellTip1()
 		{
 			CreatedDate = DateTime.MinValue;
 			Title = string.Empty;
@@ -31,7 +31,7 @@ namespace tiPS
 			Example = string.Empty;
 			Urls = Array.Empty<string>();
 			MinPowerShellVersion = string.Empty;
-			Category = TipCategory.Other;
+			Category = TipCategory1.Other;
 		}
 
 		public string Id
