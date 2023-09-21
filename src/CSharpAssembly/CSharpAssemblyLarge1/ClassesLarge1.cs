@@ -2,7 +2,7 @@ using System;
 
 namespace tiPS
 {
-	public enum TipCategory
+	public enum TipCategory1
 	{
 		Community, // Social events and community resources. e.g. PowerShell Summit, podcasts, etc.
 		CoreCmdlet, // Core cmdlet tips. e.g. Get-Process, Get-ChildItem, Get-Content, etc.
@@ -13,7 +13,7 @@ namespace tiPS
 		Other // Tips that don't fit into any of the above categories.
 	}
 
-	public class PowerShellTip
+	public class PowerShellTip1
 	{
 		public DateTime CreatedDate { get; set; }
 		public string Title { get; set; }

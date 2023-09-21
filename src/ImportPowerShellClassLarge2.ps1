@@ -1,4 +1,4 @@
-enum tiPSTipCategory
+enum tiPSTipCategory2
 {
 	Community # Social events and community resources. e.g. PowerShell Summit, podcasts, etc.
 	CoreCmdlet # Core cmdlet tips. e.g. Get-Process, Get-ChildItem, Get-Content, etc.
@@ -9,7 +9,7 @@ enum tiPSTipCategory
 	Other # Tips that don't fit into any of the above categories.
 }
 
-class tiPSPowerShellTip
+class tiPSPowerShellTip2
 {
 	[DateTime] $CreatedDate
 	[string] $Title
