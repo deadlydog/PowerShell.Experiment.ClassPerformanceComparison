@@ -47,3 +47,6 @@ ImportCSharpAssemblyLarge3: 8ms
 Interestingly, the first import of each method is always the slowest, presumably due to required assemblies being loaded into memory the first time they are needed.
 
 We can see that using a C# assembly is the fastest method, followed by PowerShell classes, and then inline C# classes.
+
+The test was also performed by running the import statements in different orders to test if one type of import would impact the performance of another.
+The results were always the same, so the order of imports does not seem to matter.
