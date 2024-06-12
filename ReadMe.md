@@ -6,6 +6,8 @@ This repo is used to run tests to compare the performance of the different ways 
 - Inline C# classes
 - Compiled C# classes (import an assembly)
 
+You can read more about this experiment and the results [in this blog post](https://blog.danskingdom.com/PowerShell-class-definition-pros-cons-and-performance-comparison/).
+
 ## The test
 
 The same classes and enums are defined in each of the three ways, and are imported multiple times into a PowerShell session.
